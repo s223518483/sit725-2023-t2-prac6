@@ -6,6 +6,10 @@ router.post("/", (req, res) => {
 	controller.postKitchen(req, res);
 });
 
+router.delete("/", (req, res) => {
+	controller.deleteKitchen(req, res);
+});
+
 router.get("/", (req, res) => {
 	controller.getAllKitchens(req, res);
 });

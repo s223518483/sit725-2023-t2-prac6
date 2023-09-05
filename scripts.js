@@ -1,12 +1,12 @@
 /*
 const clickMe = () => {
-  alert("Thanks for clicking me. Hope you have a nice day!");
+	alert("Thanks for clicking me. Hope you have a nice day!");
 };
 $(document).ready(function () {
-  $(".materialboxed").materialbox();
-  $("#clickMeButton").click(() => {
-    clickMe();
-  });
+	$(".materialboxed").materialbox();
+	$("#clickMeButton").click(() => {
+	clickMe();
+	});
 });
 */
 
